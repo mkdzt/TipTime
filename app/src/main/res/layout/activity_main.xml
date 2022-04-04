@@ -24,4 +24,14 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/et_cost_of_service"
         />
+    <RadioGroup
+        android:id="@+id/rg_tip_options"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_service_question"
+        android:orientation="vertical"
+        >
+
+    </RadioGroup>
 </androidx.constraintlayout.widget.ConstraintLayout>
