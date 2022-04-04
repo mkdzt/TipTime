@@ -45,6 +45,11 @@
             android:layout_height="wrap_content"
             android:text="Good (18%)"
             />
-
+        <RadioButton
+            android:id="@+id/rb_option_15_percent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Okay (15%)"
+            />
     </RadioGroup>
 </androidx.constraintlayout.widget.ConstraintLayout>
