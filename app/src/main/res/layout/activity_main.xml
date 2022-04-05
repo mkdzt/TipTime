@@ -60,4 +60,13 @@
         android:text="Round up tip?"
         android:checked="true"
         />
+    <Button
+        android:id="@+id/btn_calculate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/sw_round_up"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:text="Calculate"
+        />
 </androidx.constraintlayout.widget.ConstraintLayout>
